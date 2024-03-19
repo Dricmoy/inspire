@@ -1,5 +1,6 @@
-import "@/styles/globals.css";
+import '../node_modules/react-modal-video/scss/modal-video.scss';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+// This default export is required in a new `pages/_app.js` file.
+export default function MyApp({ Component, pageProps }) {
+    return <Component {...pageProps} />
 }
